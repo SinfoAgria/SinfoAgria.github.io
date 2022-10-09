@@ -5,7 +5,7 @@
 
 h1 {
     letter-spacing: 3px;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -172,6 +172,17 @@ body {
     justify-content: center;
 }
 
+@media only screen and (min-width: 481px) {
+    .nav-bar .img-logo {
+        max-width: 200px; 
+        height:auto;
+        padding-top: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
 .nav-bar .menu-button {
     width: 50px;
     height: 50px;
@@ -209,8 +220,30 @@ body {
     margin-bottom: 6px;
 }
 
+@media only screen and (min-width: 481px) {
+    .m-b-md {
+        margin-bottom: 6px;
+        width:200px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
 .m-b-xl {
     margin-bottom: 12px;
+}
+
+.button-size{
+    width:100px;
+    height:auto;
+}
+
+@media only screen and (min-width: 481px) {
+    .button-size{
+        width:150px;
+        height: 50px;;
+        font-size: 20px;
+    }
 }
 
 .box-products {
@@ -253,6 +286,13 @@ button {
     height: 45px;
 }
 
+@media only screen and (min-width: 481px) {
+    .img-menu{
+        width: 60px;
+        height: 60px;
+    }
+}
+
 
 .img-promo{
     width: 100%;
@@ -262,4 +302,14 @@ button {
 .buscador{
     display: flex;
     justify-content: space-between;
+}
+
+.placeholder-size{
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 481px) {
+    .placeholder-size{
+        font-size: 20px;
+    }
 }

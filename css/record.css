@@ -21,3 +21,21 @@ body {
 .box-record {
     margin-top: 100px;
 }
+
+.cond-size{
+    width:20px;
+    height: 20px;;
+    font-size: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 481px) {
+    .cond-size{
+        width:30px;
+        height: 30px;;
+        font-size: 25px;
+        justify-items: center;
+        align-items: center;
+    }
+}
