@@ -1,0 +1,109 @@
+.box-thumbnail {
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+}
+
+.box-thumbnail img {
+    width: 80px;
+    margin-left: 6px;
+}
+
+.box-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.img-product {
+    width: 60%;
+    border-radius: 25px;
+}
+
+.qualification {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-profile {
+    width: 50px;
+}
+
+.img-profile-comment {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profle-comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-profile {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.box-profile > * {
+    margin-right: 12px;
+    width: 80%; 
+    height: auto;
+}
+
+.comment {
+    width: calc(100% - 15px);
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  .counter {
+      width: 100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+  }
+  .counter input {
+      width: 50px;
+      border: 0;
+      border-radius: 10px;
+      line-height: 30px;
+      font-size: 15px;
+      text-align: center;
+      background: #594036;
+      color: #fff;
+      appearance: none;
+      outline: 0;
+  }
+  .counter span {
+      display: block;
+      font-size: 25px;
+      padding: 0 10px;
+      cursor: pointer;
+      color: #594036;
+      user-select: none;
+  }

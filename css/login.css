@@ -1,0 +1,23 @@
+body {
+    background-image: url(/img/coverRegistro.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position-y: -150px !important;
+    background-position-x: -300px !important;
+    background-attachment: fixed !important;
+}
+
+.logoInd {
+    text-align: center;
+    margin-top: 20px;
+}
+
+::placeholder { 
+    color: #594036;
+    opacity: 0.5;
+    border: #594036;
+}
+
+.box-login {
+    margin-top: 150px;
+}

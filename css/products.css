@@ -1,0 +1,20 @@
+body {
+    background-image: url(/img/cover5.png), url(/img/fotoRaquira.png)!important;
+    background-repeat: no-repeat, no-repeat!important;
+    background-size: cover, cover!important;
+    background-attachment: fixed, fixed!important;
+    background-position-y: -350px, top;
+
+}
+.box-order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-bottom{
+    margin-top: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}

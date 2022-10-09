@@ -1,0 +1,26 @@
+body{
+    background-image: url(/img/fondo2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.box-logo {
+    margin-top: 150px;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box-logo div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-logo {
+    width: 50%;
+}

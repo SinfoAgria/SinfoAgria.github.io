@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="ut-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/shared.css" />
+        <link rel="stylesheet" href="css/cart.css" />
+        <script src="js/shared.js"></script>
+        <script src="js/quantityBox.js"></script>
+    </head>
+    <body>
+        <!-- INICIA NAV BAR -->
+        <div class="nav-bar">
+            <div class="container-a">
+                <div>
+                    <img onclick="ShowNavBarMenu()" class="img-menu" src="img/iconomenu.png" alt="Logo" />
+                </div>
+            </div>
+            <div class="logo">
+                <img onclick="location.href = 'main.html'" class="img-logo" src="img/Ruana.png" alt="Logo" />
+            </div>
+            <div class="container-b">
+                <div class="logo">
+                    <img onclick="location.href = 'cart.html'" class="img-menu" src="img/iconoBolsillo.png" alt="Logo" />
+                </div>
+                <div class="carrito">
+                    <img onclick="ShowNavBarLogin()" class="img-menu" src="img/iconoUsuario.png" alt="Logo" />
+                </div>
+            </div>
+        </div>
+        <div id="nav-bar-login">
+            <img class="logo" src="img/logoCafe.png" />
+            <div class="buttons">
+                <button onclick="location.href = 'login.html'">Iniciar Sesión</button>
+                <button onclick="location.href = 'record.html'">Registrarse</button>
+            </div>
+        </div>
+        <div id="nav-bar-menu">
+            <div><a href="profile.html">Perfil</a></div>
+            <div><a href="main.html">Inicio</a></div>
+            <div><a href="products.html">Categorías</a></div>
+            <div><a href="cart.html">Carrito de compras</a></div>
+            <div><a href="login.html">Inicio de sesión</a></div>
+            <div><a href="record.html">Registrarse</a></div>
+            <div><a href="main.html">Cerrar sesión</a></div>
+        </div>
+        <div id="nav-bar-background"></div>
+        <!-- TERMINA NAV BAR -->
+        <div class="page">
+            <div class="box-description">
+                <h2>CANASTO</h2>
+            </div>
+            <div class="box-top">
+                <h2>Producto</h2>
+                <h2>Cantidad</h2>
+                <h2>Total</h2>
+            </div>
+            <div class="box-product m-b-xl products">
+                <img class="img-product" src="img/canastoAmar.png" />
+                <div>
+                    <div class="counter">
+                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                        <input type="text" value="1">
+                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                   </div>
+                    <div class="m-b-md product-button">
+                        <img class="img-preview" src="img/iconoQuitar.png" />
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h3>$ 185,000</h3>
+                </div>
+            </div>
+            <hr style="width:100%;text-align:left;margin-left:0">
+            <div class="box-product m-b-xl products">
+                <img class="img-product" src="img/canastoDoble.png" />
+                <div>
+                    <div class="counter">
+                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                        <input type="text" value="1">
+                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                   </div>
+                    <div class="m-b-md product-button">
+                        <img class="img-preview" src="img/iconoQuitar.png" />
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h3>$ 155,000</h3>
+                </div>
+            </div>
+            <hr style="width:100%;text-align:left;margin-left:0">
+            <div class="box-product m-b-xl products">
+                <img class="img-product" src="img/bolsoTela.png" />
+                <div>
+                    <div class="counter">
+                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                        <input type="text" value="1">
+                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                   </div>
+                    <div class="m-b-md product-button">
+                        <img class="img-preview" src="img/iconoQuitar.png" />
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h3>$ 120,000</h3>
+                </div>
+            </div>
+            <hr style="width:100%;text-align:left;margin-left:0">
+            <div class="box-product m-b-xl products">
+                <img class="img-product" src="img/tinajaAmar.png" />
+                <div>
+                    <div class="counter">
+                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                        <input type="text" value="1">
+                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                   </div>
+                    <div class="m-b-md product-button">
+                        <img class="img-preview" src="img/iconoQuitar.png" />
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h3>$ 95,000</h3>
+                </div>
+            </div>
+            <div class="m-b-md box-center">
+                <button>Pagar</button>
+            </div>
+            <div class="m-b-xl box-center">
+                <div><a href="main.html">Cancelar</a></div> 
+            </div>
+            
+        </div>
+    </body>
+</html>
+        

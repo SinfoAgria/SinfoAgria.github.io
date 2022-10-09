@@ -1,0 +1,91 @@
+body {
+    background-image: url(/img/coverCanasto.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position-y: -500px !important;
+    background-position-x: -300px !important;
+    background-attachment: fixed !important;
+}
+
+.box-product {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-description{
+    text-align: center;
+    margin: 20px;
+}
+
+.box-product > * {
+    margin-right: 6px;
+}
+
+.box-product .img-product {
+    width: 100px;
+    height: auto;
+}
+
+.product-title {
+    font-weight: 900;
+}
+
+.products {
+    padding: 0;
+    margin: 10px;
+}
+
+.product-price {
+    padding: 0;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-button {
+    text-align: center;
+    width: 30px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  .counter {
+      width: 100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+  }
+  .counter input {
+      width: 50px;
+      border: 0;
+      border-radius: 10px;
+      line-height: 30px;
+      font-size: 15px;
+      text-align: center;
+      background: #594036;
+      color: #fff;
+      appearance: none;
+      outline: 0;
+  }
+  .counter span {
+      display: block;
+      font-size: 25px;
+      padding: 0 10px;
+      cursor: pointer;
+      color: #594036;
+      user-select: none;
+  }

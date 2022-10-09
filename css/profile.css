@@ -1,0 +1,50 @@
+body {
+    background-image: url(/img/ventanaPerfil.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position:bottom;
+    background-attachment: fixed !important;
+}
+
+.box-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-profile > * {
+    margin-right: 6px;
+}
+
+.box-profile .img-profile {
+    width: 30%;
+    height: auto;
+}
+
+.profile-title {
+    margin: 10px;
+    color: #f7f5ed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-title-desc {
+    margin: 10px;
+    color: #f7f5ed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-button {
+    text-align: center;
+}
+
+.text-description-profile{
+    color: #f7f5ed;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
