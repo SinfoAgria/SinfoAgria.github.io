@@ -103,6 +103,23 @@ body {
     z-index: 11;
 }
 
+@media only screen and (min-width: 481px) {
+    #nav-bar-menu {
+        width: calc(100% - 24px);
+        padding: 12px;
+        position: absolute;
+        top: 62px;
+        left: 0;
+        background-color: #e5e0d9;
+        height: auto;
+        padding-top: 12px;
+        border-bottom: 1px solid #434343;
+        visibility: hidden;
+        z-index: 11;
+        font-size: 25px;
+    }
+}
+
 #nav-bar-menu > div {
     border-bottom: 1px solid #434343;
     width: calc(100% - 24px);
@@ -132,6 +149,23 @@ body {
     z-index: 11;
 }
 
+@media only screen and (min-width: 481px) {
+    #nav-bar-login {
+        width: 100%;
+        position: absolute;
+        top: 62px;
+        left: 0;
+        height: 200px;
+        text-align: center;
+        padding-top: 12px;
+        background-color: #e5e0d9;
+        border-bottom: 1px solid #434343;
+        visibility: hidden;
+        z-index: 11;
+    }
+}
+
+
 #nav-bar-login .logo {
     max-width:100%; 
     height:auto;
@@ -139,6 +173,17 @@ body {
     margin: 10px;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (min-width: 481px) {
+    #nav-bar-login .logo {
+        max-width:100%; 
+        height:auto;
+        padding-top: 12px;
+        margin: 25px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 #nav-bar-login .buttons {
