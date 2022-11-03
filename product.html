@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/product.css" />
         <script src="js/shared.js"></script>
         <script src="js/quantityBox.js"></script>
+        <script src="js/tabComments.js"></script>
     </head>
     <body>
         <!-- INICIA NAV BAR -->
@@ -17,7 +18,7 @@
                 </div>
             </div>
             <div class="logo">
-                <img onclick="location.href = 'main.html'" class="img-logo" src="img/logoCafe.png" alt="Logo" />
+                <img onclick="location.href = 'main.html'" class="img-logo" src="img/LogoA.png" alt="Logo" />
             </div>
             <div class="container-b">
                 <div class="logo">
@@ -63,8 +64,8 @@
             <div>
                 <h3 class="qualification m-b-xl">Calificación</h3>
             </div>
-            <div class="text-description m-b-xl">
-                <h2 class="m-b-xl">Descripción</h2>
+            <div class="m-b-xl">
+                <h1 class="m-b-xl">Descripción</h1>
                 <h3 class="m-b-xl">El Minca Medium Bag es un bolso de dos hilos con una
                 correa de un hilo, hecho a mano por mujeres Wayuu
                 que ponen toda su pasión y dedicación a este hermoso
@@ -74,48 +75,75 @@
             <div class="box-profile m-b-xl">
                 <img onclick="location.href = 'profile.html'" class="img-menu" src="img/botonPerfil.png" alt="Logo" />
             </div>
-            <h2>
-                Comentarios
-            </h2>
+        </div>    
+        <!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">Comentarios</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Otros productos</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="London" class="tabcontent">
+    <div class="page">
+        <div class="comment m-b-xl">
+            <div class="m-b-xl profle-comment ">
+                <img class="img-profile-comment" src="img/fotoJuan.jpg" />
+                <h2 class="text-description">
+                    Juan Andrés Mendoza Flores
+                </h2>
+                <h1>
+                    5.0
+                </h1>
+            </div>
+            <h3 class="text-description m-b-xl">Muy buen bolso! Es realmente muy hermoso y cómodo para la vida diaria.</h3>
         </div>
-        <div class="page">
-            <div class="comment m-b-xl">
-                <div class="m-b-xl profle-comment ">
-                    <img class="img-profile-comment" src="img/fotoJuan.jpg" />
-                    <h2>
-                        Juan Andrés Mendoza Flores
-                    </h2>
-                    <h2>
-                        5.0
-                    </h2>
-                </div>
-                <h3 class="text-description m-b-xl">Muy buen bolso! Es realmente muy hermoso y cómodo para la vida diaria.</h3>
+        <div class="comment m-b-xl">
+            <div class="m-b-xl profle-comment ">
+                <img class="img-profile-comment" src="img/fotoLaura.jpg" />
+                <h2 class="text-description">
+                    Laura Ramírez Zuluaga
+                </h2>
+                <h1>
+                    4.5
+                </h1>
             </div>
-            <div class="comment m-b-xl">
-                <div class="m-b-xl profle-comment ">
-                    <img class="img-profile-comment" src="img/fotoLaura.jpg" />
-                    <h2>
-                        Laura Ramírez Zuluaga
-                    </h2>
-                    <h2>
-                        4.5
-                    </h2>
-                </div>
-                <h3 class="text-description m-b-xl">Me gustó mucho este bolso y su diseño, espero ver más trabajos de esta persona, son muy buenos!</h3>
+            <h3 class="text-description m-b-xl">Me gustó mucho este bolso y su diseño, espero ver más trabajos de esta persona, son muy buenos!</h3>
+        </div>
+        <div class="comment m-b-xl">
+            <div class="m-b-xl profle-comment">
+                <img class="img-profile-comment" src="img/fotoPedro.jpg" />
+                <h2 class="text-description">
+                    Pedro Luis López Gallego
+                </h2>
+                <h1>
+                    4.8
+                </h1>
             </div>
-            <div class="comment m-b-xl">
-                <div class="m-b-xl profle-comment">
-                    <img class="img-profile-comment" src="img/fotoPedro.jpg" />
-                    <h2>
-                        Pedro Luis López Gallego
-                    </h2>
-                    <h2>
-                        4.8
-                    </h2>
-                </div>
-                <h3 class="text-description m-b-xl">Se lo regalé a mi esposa y le encantó, muy buen diseño y a buen precio, seguiré comprando a esta persona.</h3>
+            <h3 class="text-description m-b-xl">Se lo regalé a mi esposa y le encantó, muy buen diseño y a buen precio, seguiré comprando a esta persona.</h3>
+        </div>
+    </div>
+  </div>
+  
+  <div id="Paris" class="tabcontent">
+    <div class="box-products box-products-margin">
+        <div onclick="location.href = 'product.html'">
+            <div class="img-preview-all">
+                <img class="img-preview" src="img/canastaIracaSola.png" />
+                <h1> Canasta Iraca</h1>
+                <h3> Elaborado en Curití, Santander</h3>
+                <h2> $120,000</h2>
             </div>
         </div>
+        <div onclick="location.href = 'product.html'">
+            <div class="img-preview-all">
+                <img class="img-preview" src="img/floreroSolo.jpg" />
+                <h1> Florero Werrengue</h1>
+                <h3> Elaborado en Curití, Santander</h3>
+                <h2> $150,000</h2>
+            </div>
+        </div>
+    </div>
+  </div>
     </body>
 </html>
     

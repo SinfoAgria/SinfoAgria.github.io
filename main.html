@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="css/shared.css" />
         <link rel="stylesheet" href="css/main.css" />
         <script src="js/shared.js"></script>
+        <script src="js/imgRaquira.js"></script>
     </head>
     <body>
         <!-- INICIA NAV BAR -->
@@ -16,7 +17,7 @@
                 </div>
             </div>
             <div class="logo">
-                <img onclick="location.href = 'main.html'" class="img-logo" src="img/logoCafe.png" alt="Logo" />
+                <img onclick="location.href = 'main.html'" class="img-logo" src="img/LogoA.png" alt="Logo" />
             </div>
             <div class="container-b">
                 <div class="logo">
@@ -48,16 +49,36 @@
        <div class="page">
             <div class="box-center">
                 <div class="buscador">
-                    <img onclick="ShowNavBarLogin()" class="img-menu" src="img/iconoBuscar.png" alt="Logo" />
+                    <img class="img-menu" src="img/iconoBuscar.png" alt="Logo" />
                     <input class="input input-search" type="text" placeholder="Buscador" />
                 </div>                
             </div>
         </div>
-        <div onclick="location.href = 'products.html'">
-            <div class="img-promo">
-                <img class="img-preview" src="img/fotoRaquiraPromo.png" />
+                <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div onclick="location.href = 'products.html'" class="mySlides fade">
+            <img src="img/fotoCartaPromo.png" style="width:100%">
             </div>
+        
+            <div onclick="location.href = 'products.html'" class="mySlides fade">
+            <img src="img/fotoRaquiraPromo.png" style="width:100%">
+            </div>
+        
+            <div onclick="location.href = 'products.html'" class="mySlides fade">
+            <img src="img/fotoNeivaPromo.png" style="width:100%">
+            </div>        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <br>
+        
+        <!--div onclick="location.href = 'products.html'">            
+            < div class="img-promo">
+                <img class="img-preview" src="img/fotoRaquiraPromo.png" />
+            </div> 
+        </div-->
         <div class="page">
             <div class="box-description">
                 <h2>DESTACADOS</h2>
@@ -65,25 +86,37 @@
             <div>
                 <div class="box-products">
                     <div onclick="location.href = 'product.html'">
-                        <div>
-                            <img class="img-preview" src="img/canastaIraca.png" />
+                        <div class="img-preview-all">
+                            <img class="img-preview" src="img/canastaIracaSola.png" />
+                            <h1> Canasta Iraca</h1>
+                            <h3> Elaborado en Curití, Santander</h3>
+                            <h2> $120,000</h2>
                         </div>
                     </div>
                     <div onclick="location.href = 'product.html'">
-                        <div>
-                            <img class="img-preview" src="img/florero.png" />
+                        <div class="img-preview-all">
+                            <img class="img-preview" src="img/floreroSolo.jpg" />
+                            <h1> Florero Werrengue</h1>
+                            <h3> Elaborado en Curití, Santander</h3>
+                            <h2> $150,000</h2>
                         </div>
                     </div>
                 </div>
                 <div class="box-products">
                     <div onclick="location.href = 'product.html'">
-                        <div>
-                            <img class="img-preview" src="img/RolaBag.png" />
+                        <div class="img-preview-all">
+                            <img class="img-preview" src="img/RolaCBag.png" />
+                            <h1> Rola C Bag</h1>
+                            <h3> Elaborado en Riohacha, Guajira</h3>
+                            <h2> $150,000</h2>
                         </div>
                     </div>
                     <div onclick="location.href = 'product.html'">
-                        <div>
-                            <img class="img-preview" src="img/Tortuga.png" />
+                        <div class="img-preview-all">
+                            <img class="img-preview" src="img/Tortuga.jpg" />
+                            <h1> Tortuga Panera </h1>
+                            <h3> Elaborado en Sandoná, Nariño</h3>
+                            <h2> $90,000</h2>
                         </div>
                     </div>
                 </div>

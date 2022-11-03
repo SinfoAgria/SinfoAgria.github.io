@@ -11,7 +11,7 @@ h1 {
 
 @media only screen and (min-width: 481px) {
     h1 {
-        letter-spacing: 3x;
+        letter-spacing: 3px;
         font-size: 30px;
         font-weight: bold;
     }
@@ -25,7 +25,7 @@ h2 {
 
 @media only screen and (min-width: 481px) {
     h2 {
-        letter-spacing: 2x;
+        letter-spacing: 2px;
         font-size: 25px;
         font-weight: normal;
     }
@@ -33,14 +33,14 @@ h2 {
 
 h3 {
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: lighter;
 }
 
 @media only screen and (min-width: 481px) {
     h3 {
-        letter-spacing: 2x;
-        font-size: 18px;
+        letter-spacing: 2px;
+        font-size: 20px;
         font-weight: lighter;
     }
 }
@@ -60,6 +60,7 @@ body {
 
 .page {
     padding: 12px;
+    margin: 12px;
     color: #594036;
 }
 
@@ -210,18 +211,17 @@ body {
 }
 
 .nav-bar .img-logo {
-    max-width: 150px; 
+    max-width: 40px; 
     height:auto;
-    padding-top: 12px;
+    margin-left: 50px;
     align-items: center;
     justify-content: center;
 }
 
 @media only screen and (min-width: 481px) {
     .nav-bar .img-logo {
-        max-width: 200px; 
+        max-width: 50px; 
         height:auto;
-        padding-top: 12px;
         align-items: center;
         justify-content: center;
     }
@@ -249,20 +249,59 @@ body {
     font-size: 12px;
     padding: 6px;
     border-radius: 6px;
-    border: 1px solid gray;
+    border: 1px solid #e5e0d9;
 }
 
 .input-search {
-    width: 80%;
+    width: 200px;
+    height: 45px;
+}
+
+@media only screen and (min-width: 481px) {
+    .input-search {
+        width: 500px;
+        height: 55px;
+    }
+}
+
+.img-preview-all {
+    width: 155px;
+    margin: 0;
+    border: 2px solid white;
+    border-radius: 30px;
+    background: rgba(229,224,217,255);
+    padding: 5px;
+    color: #594036;
+}
+
+@media only screen and (min-width: 481px) {
+    .img-preview-all {
+        width: 320px;
+        margin: 0;
+        border: 2px solid white;
+        border-radius: 50px;
+        background: rgba(229,224,217,255);
+        padding: 5px;
+    }
 }
 
 .img-preview {
     width: 100%;
-    height: auto;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 481px) {
+    .img-preview {
+        width: 100%;
+        border-radius: 50px;
+    }
 }
 
 .m-b-md {
     margin-bottom: 6px;
+    font-family: mainFont;
+    letter-spacing: 3px;
+    font-weight: lighter;
 }
 
 @media only screen and (min-width: 481px) {
@@ -281,6 +320,9 @@ body {
 .button-size{
     width:100px;
     height:auto;
+    font-family: mainFont;
+    letter-spacing: 3px;
+    font-weight: lighter;
 }
 
 @media only screen and (min-width: 481px) {
@@ -298,7 +340,6 @@ body {
 }
 
 .box-products > div {
-    width: calc(50% - 12px);
     text-align: center;
     border-radius: 6px;
     height: 100px;
@@ -314,10 +355,6 @@ body {
     width: 100%;
 }
 
-.text-description {
-    text-align: justify;
-}
-
 button {
     border: 1px solid #594036;
     border-radius: 6px;
@@ -329,6 +366,10 @@ button {
 .img-menu{
     width: 45px;
     height: 45px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
 }
 
 @media only screen and (min-width: 481px) {

@@ -50,6 +50,10 @@
     border-radius: 50%;
 }
 
+.text-description{
+    padding: 10px;
+}
+
 .profle-comment {
     display: flex;
     justify-content: space-between;
@@ -70,9 +74,10 @@
 
 .comment {
     width: calc(100% - 15px);
-    border: 1px solid gray;
+    border: 1px solid rgb(150,135,129);
     border-radius: 6px;
     padding: 6px;
+    background: rgba(229,224,217,255);
 }
 
 * {
@@ -106,4 +111,41 @@
       cursor: pointer;
       color: #594036;
       user-select: none;
+  }
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #594036;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: mainFont;
+    font-size: large;
+    letter-spacing: 3px;
+  }
+  
+  .tab button:hover {
+    background-color: #594036;
+  }
+  
+  .tab button.active {
+    background-color: #594036;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 0px;
+    border-top: none;
+  }
+
+  .box-products-margin{
+    margin: 10px;
   }
