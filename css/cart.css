@@ -40,9 +40,18 @@ body {
 
 .products {
     padding: 0;
-    margin: 10px;
-    align-items: center;
+    margin: 15px;
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.product-box {
+    width: calc(100% - 15px);
+    border: 1px solid #9e7545;
+    border-radius: 6px;
+    padding: 6px;
+    background: #9e7545;
 }
 
 .products-align {
