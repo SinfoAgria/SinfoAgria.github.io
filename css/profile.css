@@ -26,7 +26,7 @@ body {
     margin: 10px;
     color: #f7f5ed;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -44,7 +44,6 @@ body {
 
 .text-description-profile{
     color: #f7f5ed;
-    text-align: justify;
     justify-content: center;
     align-items: center;
 }

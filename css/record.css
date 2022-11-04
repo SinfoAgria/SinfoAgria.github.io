@@ -30,6 +30,12 @@ body {
     align-items: center;
 }
 
+.button-margin{
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
 @media only screen and (min-width: 481px) {
     .cond-size{
         width:30px;

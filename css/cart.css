@@ -31,6 +31,7 @@ body {
 .box-product .img-product {
     width: 100px;
     height: auto;
+    border-radius: 20px;
 }
 
 .product-title {
@@ -40,6 +41,17 @@ body {
 .products {
     padding: 0;
     margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.products-align {
+    align-items: center;
+    justify-content: center;
+}
+
+.products-space {
+    padding: 10px;
 }
 
 .product-price {

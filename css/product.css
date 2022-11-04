@@ -41,7 +41,7 @@
 }
 
 .img-profile {
-    width: 50px;
+    width: 70px;
 }
 
 .img-profile-comment {
@@ -77,6 +77,14 @@
     border: 1px solid rgb(150,135,129);
     border-radius: 6px;
     padding: 6px;
+    background: rgba(229,224,217,255);
+}
+
+.profile {
+    width: calc(100% - 15px);
+    border: 1px solid rgb(150,135,129);
+    border-radius: 6px;
+    padding: 10px;
     background: rgba(229,224,217,255);
 }
 
@@ -149,3 +157,43 @@
   .box-products-margin{
     margin: 10px;
   }
+
+  *{
+    margin-bottom: 10px;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:rgb(150,135,129);
+}
+.rate:not(:checked) > label:before {
+    content: '✿';
+}
+.rate > input:checked ~ label {
+    color: #594036;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #594036;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #594036;
+}

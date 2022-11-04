@@ -242,6 +242,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
 
 }
 
@@ -255,6 +256,7 @@ body {
 .input-search {
     width: 200px;
     height: 45px;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 481px) {
@@ -399,3 +401,5 @@ button {
         font-size: 20px;
     }
 }
+
+
