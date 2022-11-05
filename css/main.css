@@ -11,6 +11,14 @@
   margin: auto;
 }
 
+@media only screen and (min-width: 960px) {
+  .slideshow-container {
+    max-width: 85%;
+    position: relative;
+    margin: auto;
+  }
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -83,3 +91,4 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+

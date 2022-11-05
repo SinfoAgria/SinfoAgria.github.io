@@ -7,6 +7,17 @@ body {
     background-attachment: fixed !important;
 }
 
+@media only screen and (min-width: 960px) {
+    body {
+        background-image: url(/img/iniciodesesionfondo.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position-y: 0px !important;
+        background-position-x: 0px !important;
+        background-attachment: fixed !important;
+    }
+}
+
 .logoInd {
     text-align: center;
     margin-top: 20px;
@@ -20,4 +31,14 @@ body {
 
 .box-login {
     margin-top: 150px;
+}
+
+@media only screen and (min-width: 960px) {
+    .box-login {
+        margin-top: 10%;
+    }
+}
+
+.text-align {
+    text-align: center;
 }

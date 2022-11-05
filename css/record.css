@@ -7,6 +7,17 @@ body {
     background-attachment: fixed !important;
 }
 
+@media only screen and (min-width: 960px) {
+    body {
+        background-image: url(/img/iniciodesesionfondo.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position-y: 0px !important;
+        background-position-x: 0px !important;
+        background-attachment: fixed !important;
+    }
+}
+
 .logoInd {
     text-align: center;
     margin-top: 20px;
@@ -43,5 +54,30 @@ body {
         font-size: 25px;
         justify-items: center;
         align-items: center;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .cond-size{
+        width:50px;
+        height: 50px;;
+        font-size: 50px;
+        margin-bottom: 25px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.text-align {
+    text-align: center;
+}
+
+.box-login {
+    margin-top: 150px;
+}
+
+@media only screen and (min-width: 960px) {
+    .box-login {
+        margin-top: 10%;
     }
 }

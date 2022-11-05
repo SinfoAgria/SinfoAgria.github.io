@@ -6,6 +6,17 @@ body {
     background-attachment: fixed !important;
 }
 
+@media only screen and (min-width: 960px) {
+    body {
+        background-image: url(/img/artesanofondo2.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position:bottom;
+        background-position-y: -100px, top;
+        background-attachment: fixed !important;
+    }
+}
+
 .box-profile {
     display: flex;
     justify-content: center;
@@ -21,6 +32,14 @@ body {
     width: 30%;
     height: auto;
 }
+
+@media only screen and (min-width: 960px) {
+    .box-profile .img-profile {
+        width: 15%;
+        height: auto;
+    }
+}
+
 
 .profile-title {
     margin: 10px;

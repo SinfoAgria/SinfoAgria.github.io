@@ -7,6 +7,17 @@ body {
     background-attachment: fixed !important;
 }
 
+@media only screen and (min-width: 960px) {
+    body {
+        background-image: url(/img/coverCanasto2.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position-y: 0px !important;
+        background-position-x: 0px !important;
+        background-attachment: fixed !important;
+    }
+}
+
 .box-product {
     display: flex;
     justify-content: space-around;
@@ -33,6 +44,29 @@ body {
     height: auto;
     border-radius: 20px;
 }
+
+@media only screen and (min-width: 481px) {
+    .box-product .img-product {
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+    }
+}
+
+.cancel-product {
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 481px) {
+    .cancel-product  {
+        width: 50px;
+        height: auto;
+        border-radius: 20px;
+    }
+}
+
 
 .product-title {
     font-weight: 900;
@@ -76,36 +110,3 @@ body {
     margin-left: 40px;
     margin-top: 5px;
 }
-
-* {
-    padding: 0;
-    margin: 0;
-  }
-
-  .counter {
-      width: 100px;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      margin-top: 10px;
-  }
-  .counter input {
-      width: 50px;
-      border: 0;
-      border-radius: 10px;
-      line-height: 30px;
-      font-size: 15px;
-      text-align: center;
-      background: #594036;
-      color: #fff;
-      appearance: none;
-      outline: 0;
-  }
-  .counter span {
-      display: block;
-      font-size: 25px;
-      padding: 0 10px;
-      cursor: pointer;
-      color: #594036;
-      user-select: none;
-  }

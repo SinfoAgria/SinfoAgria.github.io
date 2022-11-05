@@ -6,6 +6,18 @@ body {
     background-position-y: -350px, top;
 
 }
+
+@media only screen and (min-width: 960px) {
+    body {
+        background-image: url(/img/cover5.png), url(/img/RaquiraPC.png)!important;
+        background-repeat: no-repeat, no-repeat!important;
+        background-size: cover, cover!important;
+        background-attachment: fixed, fixed!important;
+        background-position-y: -600px, top;
+    
+    }
+}
+
 .box-order {
     display: flex;
     justify-content: space-around;
@@ -16,5 +28,12 @@ body {
     margin-top: 30%;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+}
+
+@media only screen and (min-width: 960px) {
+    .box-bottom{
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }

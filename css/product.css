@@ -20,6 +20,13 @@
     border-radius: 25px;
 }
 
+@media only screen and (min-width: 960px) {
+    .img-product {
+        width: 30%;
+        border-radius: 25px;
+    }
+}
+
 .qualification {
     display: flex;
     justify-content: right;
@@ -28,7 +35,7 @@
 
 .product{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -44,10 +51,30 @@
     width: 70px;
 }
 
+@media only screen and (min-width: 481px) {
+    .img-profile {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .img-profile {
+        width: 10%;
+    }
+}
+
 .img-profile-comment {
     width: 20%;
     height: auto;
     border-radius: 50%;
+}
+
+@media only screen and (min-width: 960px) {
+    .img-profile-comment {
+        width: 8%;
+        height: auto;
+        border-radius: 50%;
+    }
 }
 
 .text-description{
@@ -88,38 +115,6 @@
     background: rgba(229,224,217,255);
 }
 
-* {
-    padding: 0;
-    margin: 0;
-  }
-
-  .counter {
-      width: 100px;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      margin-top: 10px;
-  }
-  .counter input {
-      width: 50px;
-      border: 0;
-      border-radius: 10px;
-      line-height: 30px;
-      font-size: 15px;
-      text-align: center;
-      background: #594036;
-      color: #fff;
-      appearance: none;
-      outline: 0;
-  }
-  .counter span {
-      display: block;
-      font-size: 25px;
-      padding: 0 10px;
-      cursor: pointer;
-      color: #594036;
-      user-select: none;
-  }
 
 .tab {
     overflow: hidden;
@@ -139,6 +134,21 @@
     font-size: large;
     letter-spacing: 3px;
   }
+ 
+  @media only screen and (min-width: 960px) {
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-family: mainFont;
+        font-size: 50px;
+        letter-spacing: 3px;
+      }
+}
   
   .tab button:hover {
     background-color: #594036;
@@ -167,6 +177,7 @@
     height: 46px;
     padding: 0 10px;
 }
+
 .rate:not(:checked) > input {
     position:absolute;
     top:-9999px;
@@ -180,9 +191,49 @@
     font-size:30px;
     color:rgb(150,135,129);
 }
+
+@media only screen and (min-width: 481px) {
+    .rate:not(:checked) > label {
+        float:right;
+        width:2em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:rgb(150,135,129);
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .rate:not(:checked) > label {
+        float:right;
+        width:3em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:rgb(150,135,129);
+    }
+}
+
 .rate:not(:checked) > label:before {
     content: '✿';
 }
+
+@media only screen and (min-width: 481px) {
+    .rate:not(:checked) > label:before {
+        font-size: 50px;
+        content: '✿';
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .rate:not(:checked) > label:before {
+        font-size: 80px;
+        content: '✿';
+    
+}
+
 .rate > input:checked ~ label {
     color: #594036;    
 }
@@ -196,4 +247,5 @@
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
     color: #594036;
+}
 }
