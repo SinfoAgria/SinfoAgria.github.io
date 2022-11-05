@@ -20,7 +20,7 @@ h1 {
 @media only screen and (min-width: 960px) {
     h1 {
         letter-spacing: 3px;
-        font-size: 60px;
+        font-size: 40px;
         font-weight: bold;
     }
 }
@@ -42,7 +42,7 @@ h2 {
 @media only screen and (min-width: 960px) {
     h2 {
         letter-spacing: 2px;
-        font-size: 50px;
+        font-size: 35px;
         font-weight: normal;
     }
 }
@@ -64,7 +64,7 @@ h3 {
 @media only screen and (min-width: 960px) {
     h3 {
         letter-spacing: 2px;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: lighter;
     }
 }    
@@ -367,7 +367,7 @@ body {
 }
 
 .img-preview-all {
-    width: 155px;
+    width: 130px;
     margin: 0;
     border: 2px solid white;
     border-radius: 30px;
@@ -389,7 +389,7 @@ body {
 
 @media only screen and (min-width: 960px) {
     .img-preview-all {
-        width: 400px;
+        width: 320px;
         margin: 0;
         border: 2px solid white;
         border-radius: 50px;
@@ -480,6 +480,8 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 960px) {
@@ -487,6 +489,8 @@ body {
         display: flex;
         justify-content: space-around;
         margin-bottom: 12px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
@@ -496,6 +500,7 @@ body {
     height: 100px;
     height: auto;
     min-height: 140px;
+    margin: 0 12px;
 }
 
 .box-login-container {
