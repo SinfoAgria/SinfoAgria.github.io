@@ -42,7 +42,7 @@
 
 .product{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -73,12 +73,14 @@
 .img-profile-comment {
     width: 20%;
     height: auto;
+    margin: 12px;
     border-radius: 50%;
 }
 
 @media only screen and (min-width: 960px) {
     .img-profile-comment {
         width: 8%;
+        margin: 12px;
         height: auto;
         border-radius: 50%;
     }
@@ -152,7 +154,7 @@
         padding: 14px 16px;
         transition: 0.3s;
         font-family: mainFont;
-        font-size: 50px;
+        font-size: 30px;
         letter-spacing: 3px;
       }
 }

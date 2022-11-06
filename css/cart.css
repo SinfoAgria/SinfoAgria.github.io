@@ -55,7 +55,7 @@ body {
 
 @media only screen and (min-width: 960px) {
     .box-product .img-product {
-        width: 300px;
+        width: 220px;
         height: auto;
         border-radius: 20px;
     }

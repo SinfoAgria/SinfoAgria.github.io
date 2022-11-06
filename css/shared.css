@@ -310,12 +310,28 @@ body {
     }
 }
 
+.logo-desktop {
+    display: none;
+}
+
+.logo-mobile {
+    display: block;
+}
+
 @media only screen and (min-width: 960px) {
     .nav-bar .img-logo {
         max-width: 80px; 
         height:auto;
         align-items: center;
         justify-content: center;
+    }
+
+    .logo-desktop {
+        display: block;
+    }
+
+    .logo-mobile {
+        display: none;
     }
 }
 
@@ -460,6 +476,14 @@ body {
     font-weight: lighter;
 }
 
+.buscador-desktop {
+    display: none;
+}
+
+.buscador-mobile {
+    display: inline;
+}
+
 @media only screen and (min-width: 481px) {
     .button-size{
         width:150px;
@@ -470,9 +494,17 @@ body {
 
 @media only screen and (min-width: 960px) {
     .button-size{
-        width:300px;
-        height: 100px;;
-        font-size: 50px;
+        width:200px;
+        height: 70px;;
+        font-size: 30px;
+    }
+
+    .buscador-desktop {
+        display: flex;
+    }
+
+    .buscador-mobile {
+        display: none;
     }
 }
 
@@ -522,9 +554,6 @@ button {
 .img-menu{
     width: 45px;
     height: 45px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
 
 }
 
@@ -590,7 +619,7 @@ button {
 
 @media only screen and (min-width: 960px) {
     .margin-img{
-        width: 550px;
+        width: 330px;
         margin: 0;
         border: 2px solid white;
         border-radius: 30px;
